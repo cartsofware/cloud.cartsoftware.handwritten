@@ -1,6 +1,7 @@
 /**
  * Copyright (C) 2023 Wacom.
  * Use of this source code is governed by the MIT License that can be found in the LICENSE file.
+ * Do
  */
  
 class PadDefs {
@@ -149,7 +150,11 @@ class PadDefs {
 		signLine: "........................................",
 		whoFontSize: "20pt"
 	}
-	
+	/**
+	 * 
+	 * @param {*} padWidth 
+	 * @param {*} padHeight 
+	 */
 	constructor(padWidth, padHeight) {
 		this.width = padWidth;
 		this.height = padHeight;
