@@ -1,8 +1,6 @@
-
-
+#!/bin/bash 
  
- 
- function show_usage {
+function show_usage {
   
 
   
