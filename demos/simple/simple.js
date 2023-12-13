@@ -22,7 +22,7 @@ Module.onRuntimeInitialized = _ => {
 	// if we want to hide the licence we can get the licence from an external server.				
 	// there is a php demo file in /common/licence_proxy.php
     //const promise = mSigObj.setLicenceProxy("url from where to get the licence");
-	const promise = mSigObj.setLicence("key", "secret");
+	const promise = mSigObj.setLicence("537a996c-55c8-4515-b8e8-add81b776bcd", "J3gvQ8YxjrhPjCoIzx/ThFBae4qkm9jGmBvWOoXZjxriLADc9MgZf1QkEbog+Kdf4L+rCrrnGm2HpUFFrQWRxg==");
 	promise.then(value => {
 	    if (value) {
 	        if (navigator.hid) {				
